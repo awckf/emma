@@ -1,0 +1,23 @@
+/* Palette provisoire "chaude & humaine" — à valider avec la cliente
+   (inspirée de locrea-communication.fr : terracotta, sauge, sable) */
+:root {
+  --color-bg: #fdf6ec;
+  --color-bg-alt: #f6ece0;
+  --color-text: #3a2e27;
+  --color-text-soft: #6b5c50;
+  --color-primary: #e07a5f;
+  --color-primary-dark: #c9603f;
+  --color-secondary: #81b29a;
+  --color-accent: #f2cc8f;
+  --color-white: #ffffff;
+
+  --font-heading: "Fraunces", serif;
+  --font-body: "Nunito Sans", sans-serif;
+
+  --radius: 1rem;
+  --radius-sm: 0.5rem;
+  --shadow: 0 10px 30px rgba(58, 46, 39, 0.08);
+
+  --container-width: 1140px;
+  --section-padding: clamp(3rem, 8vw, 6rem);
+}
