@@ -1,6 +1,6 @@
 # emma-web
 
-Site vitrine one-page pour Emma, community manager freelance en
+Site vitrine one-page pour Emmagpie (Emma), community manager freelance en
 reconversion (ex-assistante sociale). Fil conducteur : **"Au service
 des humains"**.
 
@@ -47,9 +47,13 @@ python3 -m http.server 8000
 Le site est actuellement rempli avec des placeholders (marqués
 `TODO` dans le code) en attendant :
 
-- **Identité** : logo (svg/png), palette de couleurs définitive
-  (actuellement : terracotta `#e07a5f`, sauge `#81b29a`, sable
-  `#f2cc8f`), police définitive (actuellement Fraunces + Nunito Sans)
+- **Identité** : logo réel (en attente d'export propre depuis Canva —
+  les captures reçues ne sont pas des fichiers finaux), police
+  définitive (actuellement Fraunces + Nunito Sans, à confirmer si
+  Canva utilise d'autres polices). Palette appliquée : bordeaux
+  `#862043`, crème `#ede3d8`, blanc cassé `#f8f7f2`, anthracite
+  `#272626`, quasi-noir `#0a0405` (palette officielle "Emmagpie"
+  fournie par la cliente sur Canva).
 - **Textes** : validation/réécriture de "Mon histoire" et "Pourquoi
   moi" (brouillons déjà en place), description finale des 3 services
 - **Portfolio** : secteur du client, visuels anonymisés, chiffres

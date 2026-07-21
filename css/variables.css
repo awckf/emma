@@ -1,14 +1,18 @@
-/* Palette provisoire "chaude & humaine" — à valider avec la cliente
-   (inspirée de locrea-communication.fr : terracotta, sauge, sable) */
+/* Palette officielle "Emmagpie" (fournie par la cliente sur Canva) :
+   bordeaux #862043, crème #ede3d8, blanc cassé #f8f7f2,
+   anthracite #272626, quasi-noir #0a0405.
+   --color-primary-dark et --color-accent sont des teintes dérivées du
+   bordeaux (pas de nouvelle couleur hors palette) pour les états hover
+   et les fonds décoratifs clairs. */
 :root {
-  --color-bg: #fdf6ec;
-  --color-bg-alt: #f6ece0;
-  --color-text: #3a2e27;
-  --color-text-soft: #6b5c50;
-  --color-primary: #e07a5f;
-  --color-primary-dark: #c9603f;
-  --color-secondary: #81b29a;
-  --color-accent: #f2cc8f;
+  --color-bg: #ede3d8;
+  --color-bg-alt: #f8f7f2;
+  --color-text: #0a0405;
+  --color-text-soft: #272626;
+  --color-primary: #862043;
+  --color-primary-dark: #6b1a36;
+  --color-secondary: #6b1a36;
+  --color-accent: #d3b2b3;
   --color-white: #ffffff;
 
   --font-heading: "Fraunces", serif;
@@ -16,7 +20,7 @@
 
   --radius: 1rem;
   --radius-sm: 0.5rem;
-  --shadow: 0 10px 30px rgba(58, 46, 39, 0.08);
+  --shadow: 0 10px 30px rgba(10, 4, 5, 0.08);
 
   --container-width: 1140px;
   --section-padding: clamp(3rem, 8vw, 6rem);
