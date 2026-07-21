@@ -47,12 +47,13 @@ python3 -m http.server 8000
 Le site est actuellement rempli avec des placeholders (marqués
 `TODO` dans le code) en attendant :
 
-- **Identité** : logo en place dans le Hero à titre de test
-  (`assets/images/logo/logo-badge.png`, fond détouré depuis une
-  capture Canva). À remplacer par un export propre dès que possible :
-  le texte "Emmagpie" du haut du badge est quasi invisible dans le
-  fichier actuel (texte bordeaux très sombre sur fond noir, contraste
-  quasi nul). Police
+- **Identité** : logo en place dans le Hero (`assets/images/logo/logo-badge.png`,
+  fond détouré depuis la capture "papier" fournie — texte et oiseau
+  bien lisibles sur ce fond, contrairement à la version fond noir).
+  Favicon généré à partir de l'oiseau du logo
+  (`assets/images/logo/favicon-32.png` / `favicon-180.png`). À
+  remplacer par un export propre (SVG ou PNG haute résolution) dès que
+  possible pour une netteté optimale. Police
   définitive (actuellement Fraunces + Nunito Sans, à confirmer si
   Canva utilise d'autres polices). Palette appliquée : bordeaux
   `#862043`, crème `#ede3d8`, blanc cassé `#f8f7f2`, anthracite
