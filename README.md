@@ -76,8 +76,9 @@ Le site est actuellement rempli avec des placeholders (marqués
 - **Réseaux sociaux** : URL Instagram réelle (footer). LinkedIn déjà
   branché ; pas de Facebook (la cliente n'en a pas).
 - **Nom de domaine** : pour créer le fichier `CNAME`
-- **Mentions légales** : statut, SIRET, adresse (`legal/mentions-legales.html`)
-- **Dépôt distant** : URL du repo GitHub pour configurer le remote et pousser
+- **Mentions légales** : ✅ complètes (`legal/mentions-legales.html`) —
+  raison sociale, statut, SIRET, adresse, email tous renseignés
+- **Dépôt distant** : ✅ configuré, push sur `main` opérationnel
 
 ## Versioning
 
