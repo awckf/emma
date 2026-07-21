@@ -272,6 +272,17 @@ section {
   box-shadow: var(--shadow);
 }
 
+/* Le badge logo est sur fond transparent : pas de carte/ombre rectangulaire,
+   juste une ombre portée douce qui suit la forme du dessin. */
+.hero-visual .hero-logo {
+  max-width: 320px;
+  width: 100%;
+  margin-inline: auto;
+  border-radius: 0;
+  box-shadow: none;
+  filter: drop-shadow(0 14px 26px rgba(10, 4, 5, 0.18));
+}
+
 @media (min-width: 900px) {
   .hero .container {
     grid-template-columns: 1.1fr 0.9fr;
