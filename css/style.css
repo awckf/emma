@@ -523,6 +523,16 @@ section {
   gap: 1.1rem;
 }
 
+/* Honeypot anti-spam Web3Forms : invisible pour les humains, les bots
+   simplistes le remplissent quand même et sont filtrés côté serveur. */
+.honeypot {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+}
+
 .form-group {
   display: flex;
   flex-direction: column;

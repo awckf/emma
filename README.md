@@ -63,14 +63,13 @@ Le site est actuellement rempli avec des placeholders (marqués
   moi" (brouillons déjà en place), description finale des 3 services
 - **Portfolio** : secteur du client, visuels anonymisés, chiffres
   réels (engagement, abonnés...)
-- **Formulaire** : branché sur `emmagpie.cm@gmail.com` via le mode
-  "email direct" de Formspree (`action="https://formspree.io/emmagpie.cm@gmail.com"`,
-  aucun compte requis). **Important** : au tout premier envoi de test,
-  Formspree mail une demande de confirmation à cette adresse — il faut
-  cliquer sur le lien de confirmation pour activer la réception des
-  messages suivants. Optionnel plus tard : créer un compte Formspree
-  gratuit pour un vrai formulaire (`/f/{id}`) avec anti-spam et
-  historique des messages.
+- **Formulaire** : branché sur Web3Forms (`action="https://api.web3forms.com/submit"`),
+  clé d'accès liée à `emmagpie.cm@gmail.com` (clé publique côté
+  client par design chez Web3Forms, pas un secret à protéger). Note :
+  Formspree a été abandonné en cours de route, leur ancien mode "email
+  direct sans compte" a été supprimé par Formspree en 2024 (confirmé
+  par un test réel qui a échoué en 404) — nécessite maintenant un
+  compte, d'où le passage à Web3Forms.
 - **Calendly** : en attente. Remplacé temporairement par un encart
   "Bientôt disponible" (`index.html`, section Contact) le temps que
   l'offre "Appel découverte" soit prête côté cliente.
