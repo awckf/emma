@@ -373,8 +373,9 @@ section {
   box-shadow: var(--shadow);
 }
 
-/* Visuel généré en CSS (dégradés flous + icône plateforme) : pas de
-   vraie photo tant que les clientes restent anonymisées. */
+/* Photos libres de droit (Pexels), floutées en amont (pas juste en CSS)
+   pour rester cohérent avec l'anonymisation : illustratif, pas les
+   vraies clientes. Voir credits.md pour les sources. */
 .portfolio-visual {
   position: relative;
   aspect-ratio: 4 / 3;
@@ -382,35 +383,33 @@ section {
   align-items: center;
   justify-content: center;
   overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-color: var(--color-bg-alt);
 }
 
-.portfolio-visual::before {
+.portfolio-visual::after {
   content: "";
   position: absolute;
-  inset: -25%;
-  filter: blur(50px);
-  background: var(--color-bg-alt);
+  inset: 0;
+  background: linear-gradient(160deg, rgba(134, 32, 67, 0.55), rgba(10, 4, 5, 0.35));
 }
 
-.portfolio-visual--indep::before {
-  background:
-    radial-gradient(circle at 25% 25%, var(--color-primary) 0%, transparent 55%),
-    radial-gradient(circle at 75% 75%, var(--color-accent) 0%, transparent 55%),
-    var(--color-bg-alt);
-}
-
-.portfolio-visual--pme::before {
-  background:
-    radial-gradient(circle at 70% 30%, var(--color-secondary) 0%, transparent 55%),
-    radial-gradient(circle at 25% 75%, var(--color-primary) 0%, transparent 50%),
-    var(--color-bg-alt);
+.visual-badge {
+  position: relative;
+  z-index: 1;
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  background: rgba(10, 4, 5, 0.25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .portfolio-visual svg {
-  position: relative;
   color: var(--color-white);
-  opacity: 0.9;
-  filter: drop-shadow(0 6px 16px rgba(10, 4, 5, 0.25));
+  opacity: 0.95;
 }
 
 .portfolio-item .caption {
