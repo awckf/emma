@@ -362,8 +362,8 @@ section {
 
 .portfolio-grid {
   display: grid;
-  gap: 1.5rem;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.75rem;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 }
 
 .portfolio-item {
@@ -373,24 +373,91 @@ section {
   box-shadow: var(--shadow);
 }
 
-.portfolio-item img {
+/* Visuel généré en CSS (dégradés flous + icône plateforme) : pas de
+   vraie photo tant que les clientes restent anonymisées. */
+.portfolio-visual {
+  position: relative;
   aspect-ratio: 4 / 3;
-  object-fit: cover;
-  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.portfolio-visual::before {
+  content: "";
+  position: absolute;
+  inset: -25%;
+  filter: blur(50px);
+  background: var(--color-bg-alt);
+}
+
+.portfolio-visual--instagram::before {
+  background:
+    radial-gradient(circle at 25% 25%, var(--color-primary) 0%, transparent 55%),
+    radial-gradient(circle at 75% 75%, var(--color-accent) 0%, transparent 55%),
+    var(--color-bg-alt);
+}
+
+.portfolio-visual--facebook::before {
+  background:
+    radial-gradient(circle at 70% 30%, var(--color-secondary) 0%, transparent 55%),
+    radial-gradient(circle at 25% 75%, var(--color-primary) 0%, transparent 50%),
+    var(--color-bg-alt);
+}
+
+.portfolio-visual svg {
+  position: relative;
+  color: var(--color-white);
+  opacity: 0.9;
+  filter: drop-shadow(0 6px 16px rgba(10, 4, 5, 0.25));
 }
 
 .portfolio-item .caption {
-  padding: 1.25rem;
+  padding: 1.75rem;
+}
+
+.client-type {
+  font-family: var(--font-body);
+  font-weight: 700;
+  font-size: 0.78rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-primary-dark);
+  margin-bottom: 0.5rem;
 }
 
 .portfolio-item .caption h3 {
-  font-size: 1.05rem;
-  margin-bottom: 0.4rem;
+  font-size: 1.15rem;
+  margin-bottom: 0.6rem;
 }
 
 .portfolio-item .caption p {
   color: var(--color-text-soft);
   font-size: 0.95rem;
+}
+
+.client-actions {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin: 1rem 0;
+  padding: 0;
+}
+
+.client-actions li {
+  position: relative;
+  padding-left: 1.1rem;
+  color: var(--color-text-soft);
+  font-size: 0.92rem;
+}
+
+.client-actions li::before {
+  content: "—";
+  position: absolute;
+  left: 0;
+  color: var(--color-primary);
 }
 
 .portfolio-stats {
