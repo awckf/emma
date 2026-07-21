@@ -73,7 +73,8 @@ Le site est actuellement rempli avec des placeholders (marqués
 - **Calendly** : en attente. Remplacé temporairement par un encart
   "Bientôt disponible" (`index.html`, section Contact) le temps que
   l'offre "Appel découverte" soit prête côté cliente.
-- **Réseaux sociaux** : URLs Instagram / LinkedIn / Facebook (footer)
+- **Réseaux sociaux** : URL Instagram réelle (footer). LinkedIn déjà
+  branché ; pas de Facebook (la cliente n'en a pas).
 - **Nom de domaine** : pour créer le fichier `CNAME`
 - **Mentions légales** : statut, SIRET, adresse (`legal/mentions-legales.html`)
 - **Dépôt distant** : URL du repo GitHub pour configurer le remote et pousser

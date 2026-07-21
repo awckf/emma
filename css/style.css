@@ -558,6 +558,10 @@ section {
   outline-offset: 1px;
 }
 
+.h-captcha {
+  margin-top: -0.4rem;
+}
+
 .form-status {
   font-size: 0.9rem;
   font-weight: 700;
