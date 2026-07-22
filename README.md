@@ -1,8 +1,8 @@
 # emma-web
 
 Site vitrine one-page pour Emmagpie (Emma), community manager freelance en
-reconversion (ex-assistante sociale). Fil conducteur : **"Au service
-des humains"**.
+reconversion (ex-assistante sociale). Fil conducteur : **"Pour une
+communication brillante et humaine"**.
 
 Stack : HTML / CSS / JavaScript vanilla, aucun framework, aucun
 build — déployable directement tel quel.
