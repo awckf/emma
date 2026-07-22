@@ -477,6 +477,13 @@ section {
 /* ==========================================================
    Pourquoi moi
    ========================================================== */
+/* La grille de valeurs est centrée (voir .valeurs-grid plus bas) ;
+   l'accroche suit le même alignement pour rester cohérente visuellement. */
+.pourquoi-moi .section-intro {
+  margin-inline: auto;
+  text-align: center;
+}
+
 /* Flexbox plutôt que grid : avec un nombre de valeurs qui peut ne pas
    être un multiple net de la largeur de ligne (ex. 5), ça évite
    qu'une carte se retrouve seule et mal alignée sur la dernière ligne. */
