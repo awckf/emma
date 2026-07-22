@@ -54,6 +54,13 @@ nom de domaine.
 - [ ] Une ou deux vraies photos de toi (pour le Hero et la section "Mon
       histoire", actuellement vides)
 
+## 4. Visibilité en ligne
+
+- [ ] Créer une fiche Google (Google Business Profile / "Google mon
+      établissement") pour ton activité, avec l'URL du site renseignée —
+      améliore ton référencement local et te fait apparaître sur Google
+      Maps / recherches locales
+
 ## Déjà fait ✅
 
 - Mentions légales complètes (SIRET, statut, adresse, email)
