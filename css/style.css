@@ -324,7 +324,13 @@ section {
 .services-grid {
   display: grid;
   gap: 1.75rem;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 640px) {
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 .service-card {
@@ -471,13 +477,19 @@ section {
 /* ==========================================================
    Pourquoi moi
    ========================================================== */
+/* Flexbox plutôt que grid : avec un nombre de valeurs qui peut ne pas
+   être un multiple net de la largeur de ligne (ex. 5), ça évite
+   qu'une carte se retrouve seule et mal alignée sur la dernière ligne. */
 .valeurs-grid {
-  display: grid;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 1.5rem;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
 }
 
 .valeur-item {
+  flex: 1 1 200px;
+  max-width: 260px;
   text-align: center;
   padding: 1.5rem;
 }
