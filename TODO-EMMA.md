@@ -48,11 +48,28 @@ nom de domaine.
 
 - [ ] URL de ton compte Instagram professionnel (le lien est vide pour
       l'instant dans le footer)
-- [ ] Logo définitif : un export propre depuis Canva (SVG ou PNG haute
-      résolution, fond transparent) — la version actuelle est une extraction
-      bricolée d'une capture d'écran, pas idéale niveau netteté
-- [ ] Une ou deux vraies photos de toi (pour le Hero et la section "Mon
-      histoire", actuellement vides)
+- [ ] **Logo définitif**, dans cet ordre de préférence :
+  1. **SVG** si Canva le permet (vectoriel, reste net à toutes les tailles)
+  2. Sinon **PNG fond transparent, haute résolution** (1500-2000px de large
+     minimum — pas la taille par défaut ~500px qu'on a récupérée jusqu'ici)
+  3. **Vérifier que le texte "Emmagpie" du badge reste lisible sur fond
+     clair** (crème/blanc) — pas seulement sur le fond noir de l'éditeur
+     Canva, où il devenait presque invisible
+  4. *Bonus* : une version simplifiée avec juste la pie (sans portrait ni
+     texte), pour un favicon propre
+  5. Si envoi par Telegram : envoyer en **"document"**, pas en "photo"
+     (Telegram compresse et redimensionne les photos, ce qui abîmerait un
+     SVG ou un PNG haute résolution)
+- [ ] **Deux photos**, toi seule (pas avec un client — le portfolio reste
+      anonymisé, et ça poserait un souci de consentement de la personne) :
+  1. **Hero** : un portrait — buste/visage, souriante, fond simple. Pas
+     besoin de studio pro, une photo naturelle bien éclairée fonctionne
+     très bien
+  2. **"Mon histoire"** : une photo plus contextuelle, "en train de
+     travailler" (laptop, notes, téléphone) — illustre concrètement le
+     texte à côté
+  3. Format simple JPG/PNG, ~1200px de large minimum, pas de contrainte
+     de transparence ici
 
 ## 4. Visibilité en ligne
 
