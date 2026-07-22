@@ -477,30 +477,13 @@ section {
 /* ==========================================================
    Pourquoi moi
    ========================================================== */
-/* La grille de valeurs est centrée (voir .valeurs-grid plus bas) ; sur
-   desktop, l'accroche suit le même alignement. Sur mobile, tout est déjà
-   empilé sur une colonne : centrer le texte n'apporte rien et nuit à la
-   lecture, donc on garde l'alignement à gauche par défaut. */
-@media (min-width: 900px) {
-  .pourquoi-moi .section-intro {
-    margin-inline: auto;
-    text-align: center;
-  }
-}
-
-/* Flexbox plutôt que grid : avec un nombre de valeurs qui peut ne pas
-   être un multiple net de la largeur de ligne (ex. 5), ça évite
-   qu'une carte se retrouve seule et mal alignée sur la dernière ligne. */
 .valeurs-grid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  display: grid;
   gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
 }
 
 .valeur-item {
-  flex: 1 1 300px;
-  max-width: 320px;
   text-align: center;
   padding: 1.5rem;
 }
