@@ -477,11 +477,15 @@ section {
 /* ==========================================================
    Pourquoi moi
    ========================================================== */
-/* La grille de valeurs est centrée (voir .valeurs-grid plus bas) ;
-   l'accroche suit le même alignement pour rester cohérente visuellement. */
-.pourquoi-moi .section-intro {
-  margin-inline: auto;
-  text-align: center;
+/* La grille de valeurs est centrée (voir .valeurs-grid plus bas) ; sur
+   desktop, l'accroche suit le même alignement. Sur mobile, tout est déjà
+   empilé sur une colonne : centrer le texte n'apporte rien et nuit à la
+   lecture, donc on garde l'alignement à gauche par défaut. */
+@media (min-width: 900px) {
+  .pourquoi-moi .section-intro {
+    margin-inline: auto;
+    text-align: center;
+  }
 }
 
 /* Flexbox plutôt que grid : avec un nombre de valeurs qui peut ne pas
