@@ -21,6 +21,15 @@ nom de domaine.
     fourni avec des adresses email professionnelles (`contact@tondomaine.fr`),
     ce qui peut être un vrai plus pour l'image du site.
 
+  **Pourquoi un hébergeur payant peut valoir le coup :** l'option gratuite
+  (GitHub Pages) a une contrainte importante — elle exige que le code du
+  site soit **public**, visible par n'importe qui (commits, historique,
+  fichiers). Si tu préfères que ton code reste privé tout en gardant
+  l'historique de version (utile si le site évolue avec plusieurs
+  personnes dessus), il faut soit payer GitHub (~4€/mois), soit héberger
+  ailleurs (OVH...) — Git reste utilisé en interne pour le suivi, mais le
+  site public ne montre que le résultat, pas le code source.
+
 ## 2. Devenir propriétaire de tes propres outils
 
 - [ ] **Web3Forms** (formulaire de contact) : créer ton propre compte sur
