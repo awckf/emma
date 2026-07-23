@@ -37,9 +37,12 @@ nom de domaine.
       transmettre pour que je remplace celle de Flo actuellement utilisée.
       (Étapes détaillées : va sur web3forms.com → "Create Access Key" →
       entre ton email → récupère la clé reçue par mail.)
-- [ ] **Calendly** : créer un compte gratuit pour la prise de rendez-vous
-      "Appel découverte", configurer un créneau de 15-20 min, et me donner
-      le lien pour remplacer l'encart "Bientôt disponible" actuel.
+- [x] **Calendly** : compte créé, lien branché
+      (`calendly.com/emmagpie-cm/30min`). ⚠️ À vérifier : l'événement
+      s'appelle "Premier Échange Communication" et dure 30 min, alors que
+      le texte du site dit encore "Appel découverte" / "15 à 20 minutes"
+      — dis-moi si je dois ajuster le texte du site pour que ça corresponde
+      exactement à l'événement Calendly réel.
 - [ ] *(Optionnel, à plus long terme)* : avoir ton propre compte GitHub si tu
       veux être seule propriétaire du code du site, plutôt que de dépendre
       du dépôt actuel hébergé chez un ami de Flo.
