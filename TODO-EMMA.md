@@ -8,18 +8,14 @@ nom de domaine.
 
 ## 1. Nom de domaine + hébergement
 
-- [ ] Choisir un nom de domaine (ex. `emmagpie.fr` ou `emmagpie.com`) et le
-      réserver — chez OVH, ou un autre registrar (Gandi, Infomaniak...)
-- [ ] Décider comment héberger le site : deux options possibles, dis-moi
-      laquelle te parle et je m'occupe de la technique :
-  - **Option simple/gratuite** : garder l'hébergement gratuit actuel
-    (GitHub Pages) et juste brancher ton nom de domaine dessus. Le site ne
-    change pas, seule l'adresse change. Ça marche très bien pour un site
-    vitrine comme le tien (pas de base de données, pas de logique serveur).
-  - **Option "tout-en-un" chez OVH** : un pack hébergement + domaine chez
-    OVH (ou équivalent). Plus cher (quelques euros/mois), mais souvent
-    fourni avec des adresses email professionnelles (`contact@tondomaine.fr`),
-    ce qui peut être un vrai plus pour l'image du site.
+- [x] Nom de domaine choisi : **emmagpie.com**
+- [ ] Réserver `emmagpie.com` (OVH ou autre registrar)
+- [ ] Souscrire un hébergement OVH (décision prise : pack OVH plutôt que
+      GitHub Pages gratuit, pour garder le code privé + avoir un email
+      pro `contact@emmagpie.com` si besoin)
+- [ ] Une fois l'hébergement actif : configurer la zone DNS du domaine
+      pour qu'elle pointe vers l'hébergement OVH (fait automatiquement si
+      domaine + hébergement achetés ensemble chez OVH)
 
   **Pourquoi un hébergeur payant peut valoir le coup :** l'option gratuite
   (GitHub Pages) a une contrainte importante — elle exige que le code du
@@ -38,14 +34,18 @@ nom de domaine.
       (Étapes détaillées : va sur web3forms.com → "Create Access Key" →
       entre ton email → récupère la clé reçue par mail.)
 - [x] **Calendly** : compte créé, lien branché
-      (`calendly.com/emmagpie-cm/30min`). ⚠️ À vérifier : l'événement
-      s'appelle "Premier Échange Communication" et dure 30 min, alors que
-      le texte du site dit encore "Appel découverte" / "15 à 20 minutes"
-      — dis-moi si je dois ajuster le texte du site pour que ça corresponde
-      exactement à l'événement Calendly réel.
-- [ ] *(Optionnel, à plus long terme)* : avoir ton propre compte GitHub si tu
-      veux être seule propriétaire du code du site, plutôt que de dépendre
-      du dépôt actuel hébergé chez un ami de Flo.
+      (`calendly.com/emmagpie-cm/30min`), durée corrigée sur le site (30
+      min). ⚠️ Reste en anglais (dates/jours) — à corriger dans le
+      dashboard Calendly : Event Types → l'événement "30min" → option de
+      langue de l'invité → passer en français.
+- [ ] **Compte GitHub à toi** : crée un compte sur github.com, puis un
+      **dépôt privé vide**, et donne-moi son URL — je pousserai tout le
+      code et son historique dessus. Objectif : versioning conservé, mais
+      code privé (pas visible publiquement), et tu deviens propriétaire
+      du dépôt (plus besoin de dépendre de celui d'un ami de Flo).
+      Déploiement ensuite : une fois l'hébergement OVH actif, je pousse le
+      site en ligne à la demande (pas besoin d'automatisation complexe,
+      tu me dis "déploie" et je m'en occupe).
 
 ## 3. Contenu à finaliser
 

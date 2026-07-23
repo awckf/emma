@@ -33,14 +33,15 @@ python3 -m http.server 8000
 # puis http://localhost:8000
 ```
 
-## Déploiement GitHub Pages
+## Déploiement
 
-1. Pousser ce dépôt sur GitHub (branche `main`).
-2. Repo → Settings → Pages → Source : branche `main`, dossier `/ (root)`.
-3. Une fois le nom de domaine confirmé : créer un fichier `CNAME` à la
-   racine contenant uniquement le domaine (ex. `www.emma-cm.fr`), et
-   configurer un enregistrement DNS `CNAME`/`A` chez le registrar vers
-   GitHub Pages.
+**Actuellement** : GitHub Pages, branche `main`, dossier `/ (root)` —
+visible sur https://awckf.github.io/emma/
+
+**Prévu à terme** : migration vers un hébergement OVH, sur le domaine
+`emmagpie.com` (déjà choisi, pas encore réservé), avec un dépôt GitHub
+privé propre à la cliente (voir `TODO-EMMA.md`). Le déploiement vers OVH
+se fera à la demande (FTP/SFTP), pas via une automatisation GitHub Pages.
 
 ## Informations encore attendues côté cliente
 
