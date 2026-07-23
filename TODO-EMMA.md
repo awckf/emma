@@ -46,8 +46,7 @@ nom de domaine.
 
 ## 3. Contenu à finaliser
 
-- [ ] URL de ton compte Instagram professionnel (le lien est vide pour
-      l'instant dans le footer)
+- [x] URL de ton compte Instagram professionnel
 - [ ] **Logo définitif**, dans cet ordre de préférence :
   1. **SVG** si Canva le permet (vectoriel, reste net à toutes les tailles)
   2. Sinon **PNG fond transparent, haute résolution** (1500-2000px de large
