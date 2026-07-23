@@ -40,8 +40,8 @@ visible sur https://awckf.github.io/emma/
 
 **Prévu à terme** : migration vers un hébergement OVH, sur le domaine
 `emmagpie.com` (déjà choisi, pas encore réservé), avec un dépôt GitHub
-privé propre à la cliente (voir `TODO-EMMA.md`). Le déploiement vers OVH
-se fera à la demande (FTP/SFTP), pas via une automatisation GitHub Pages.
+privé propre à la cliente. Le déploiement vers OVH se fera à la demande
+(FTP/SFTP), pas via une automatisation GitHub Pages.
 
 ## Informations encore attendues côté cliente
 
