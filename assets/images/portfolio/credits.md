@@ -9,6 +9,8 @@ vraies clientes ; le portfolio reste anonymisé.
   (pexels.com/photo/woman-working-at-home-using-her-laptop-4050290/)
 - `pme-locale.jpg` — photo par CanvaStudio
   (pexels.com/photo/four-people-using-laptop-computers-and-smartphone-3277808/)
+- `cabinet-conseil.jpg` — photo par Bertellifotografia
+  (pexels.com/photo/business-training-course-18999470/)
 
-Les deux images sont recadrées (4:3) et floutées avant intégration
+Les trois images sont recadrées (4:3) et floutées avant intégration
 au site (voir historique git pour le script de traitement).
